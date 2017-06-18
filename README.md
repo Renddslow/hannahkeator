@@ -19,6 +19,6 @@ The repository comes complete with the virtualenv with all of our dependencies a
 
 So all we have to do is pop on into the virtual environment
 
-`source env/bin/activate
+`source env/bin/activate`
 
 and run `python app.py` to get things going.
