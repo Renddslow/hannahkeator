@@ -29,6 +29,8 @@ def update():
 	
 	if 'MediaUrl0' in body:
 		media = body['MediaUrl0']
+	else:
+		media = None
 	
 	r = redis.StrictRedis(host='localhost', port=6379, db=0)
 	instructions = ["status", "pic", "title", "numbers"]
